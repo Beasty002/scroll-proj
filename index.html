@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'poppins';
+            margin: 0;
+        }
+
+        .unnknown {
+            padding: 0px 150px;
+        }
+
+        .unnknown1 {
+            padding: 0px 150px;
+            margin-top: 10px;
+        }
+
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 10px;
+            padding: 0px 200px;
+        }
+
+        .left-container {
+            position: relative;
+
+        }
+
+        .img-container {
+            position: sticky;
+            top: 50px;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .img-container img {
+            margin-bottom: 100px;
+            display: block;
+            border: 8px solid black;
+            border-radius: 19px;
+
+            object-fit: contain;
+            height: 500px;
+        }
+
+        .right-container {
+            position: relative;
+        }
+
+        h2 {
+            position: sticky;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid gray;
+        }
+
+        p {
+            margin-bottom: 90vh;
+            margin-top: 80px;
+        }
+
+        h2:nth-child(1) {
+            top: 0;
+        }
+
+        h2:nth-child(3) {
+            top: 101px;
+        }
+
+        h2:nth-child(5) {
+            top: 202px;
+        }
+
+        h2:nth-child(7) {
+            top: 303px;
+        }
+
+        h2:nth-child(9) {
+            top: 404px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="unnknown" style="height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #1fc8db;
+        background-image: linear-gradient(140deg, #EADEDB 0%, #a070bc 50%, #41b8d6a2 75%); opacity: 0.8;">
+        <h1>WElcome to your humble adobe, Scroll down to see the magic</h1>
+    </section>
+    <main>
+        <section id="leftContainer">
+            <div class="img-container"><img src="./1.png" alt=""></div>
+            <div class="img-container"><img src="./2.png" alt=""></div>
+            <div class="img-container"><img src="./3.png" alt=""></div>
+            <div class="img-container"><img src="./4.png" alt=""></div>
+            <div class="img-container"><img src="./5.png" alt=""></div>
+        </section>
+        <section id="rightContainer">
+            <h2>01 Onboarding</h2>
+            <p> Introduce how ORBit works and what to expect
+            </p>
+            <h2>02 Define goal</h2>
+            <p>Set a bigger goal (e.g. do regular exercises) to achieve in the long-term, followed by a smaller activity
+                (walk for 30min/day) that can be completed easily everyday.
+
+            </p>
+            <h2>03 Connect a friend and activity</h2>
+            <p> Tap the orb upon completion of activity. Users and their friends can see who has completed their
+                activity first, as indicated by the color change, encouraging a healthy and fun level of competition.
+
+
+            </p>
+            <h2>04 Celebrate achievement
+            </h2>
+            <p>Once each person has completed their activity, they get a celebratory message on the app along with a
+                motivation quote that’s read aloud.
+
+
+
+            </p>
+            <h2>05 Goal tracking+customization
+            </h2>
+            <p> Users can track their weekly and monthly progress to stay on track of habit building. They can also
+                easily update their activities and orb setting to better adapt to their evolving goals and needs
+
+
+            </p>
+
+
+        </section>
+
+    </main>
+    <section class="unnknown1"
+        style="height: 100vh; display: flex; justify-content: center; align-items: center; background: rgba(108, 101, 241, 0.279);
+background: linear-gradient(90deg, rgba(108, 101, 241, 0.174) 0%, rgba(39, 209, 203, 0.125) 35%, rgba(0, 242, 255, 0.168) 100%);">
+        <h1>This is all you see</h1>
+    </section>
+</body>
+
+</html>
